@@ -15,3 +15,15 @@ import androidx.compose.ui.unit.dp
 import com.turbosokol.sharedfront.ui.MainView
 import com.turbosokol.sharedfront.util.ApplicationViewModel
 import org.koin.java.KoinJavaComponent.inject
+
+class MainActivity : ComponentActivity() {
+    val appViewModel: ApplicationViewModel by inject()
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContent {
+           Box(modifier = Modifier.padding(16.dp)) {
+               MainView(viewModel = appViewModel)
+           }
+        }
+    }
+}
