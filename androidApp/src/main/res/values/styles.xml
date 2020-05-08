@@ -1,2 +1,3 @@
 <resources>
-    <style name="AppTheme" parent="android:The
+    <style name="AppTheme" parent="android:Theme.Material.NoActionBar"/>
+</reso
