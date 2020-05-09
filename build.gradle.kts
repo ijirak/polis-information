@@ -1,2 +1,2 @@
 plugins {
-    //trick: for
+    //trick: for the same plugin versions in all 
