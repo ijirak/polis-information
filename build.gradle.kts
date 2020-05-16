@@ -3,4 +3,4 @@ plugins {
     id("com.android.application").version("7.4.0-rc03").apply(false)
     id("com.android.library").version("7.4.0-rc03").apply(false)
     kotlin("android").version("1.7.10").apply(false)
-    ko
+    kotlin("multiplatform").version("1.7.10").ap
