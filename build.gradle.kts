@@ -7,4 +7,5 @@ plugins {
 }
 
 tasks.register("clean", Delete::class) {
-    delet
+    delete(rootProject.buildDir)
+}
