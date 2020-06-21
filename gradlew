@@ -35,4 +35,5 @@ while [ -h "$PRG" ] ; do
         PRG=`dirname "$PRG"`"/$link"
     fi
 done
-SAVED
+SAVED="`pwd`"
+cd "`dirname \"$PRG\"`/" >/d
