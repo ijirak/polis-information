@@ -75,4 +75,9 @@ case "`uname`" in
   MINGW* )
     msys=true
     ;;
-  NONSTOP*
+  NONSTOP* )
+    nonstop=true
+    ;;
+esac
+
+CLASSPATH=
