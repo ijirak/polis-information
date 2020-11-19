@@ -179,4 +179,4 @@ save () {
 }
 APP_ARGS=`save "$@"`
 
-# Collect all argumen
+# Collect all arguments for the java command, following the shel
