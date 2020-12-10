@@ -1,2 +1,4 @@
 target 'iosApp' do
-  use_fram
+  use_frameworks!
+  platform :ios, '14.1'
+  pod 'sharedL
