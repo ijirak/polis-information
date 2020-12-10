@@ -1,0 +1,2 @@
+target 'iosApp' do
+  use_fram
