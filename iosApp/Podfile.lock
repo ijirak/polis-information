@@ -2,4 +2,6 @@ PODS:
   - sharedLogic (1.0)
 
 DEPENDENCIES:
-  - sharedLogic 
+  - sharedLogic (from `../sharedLogic`)
+
+EXTERNAL SOURCES
