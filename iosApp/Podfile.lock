@@ -1,1 +1,4 @@
-PO
+PODS:
+  - sharedLogic (1.0)
+
+DEP
