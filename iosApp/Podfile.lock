@@ -4,4 +4,6 @@ PODS:
 DEPENDENCIES:
   - sharedLogic (from `../sharedLogic`)
 
-EXTERNAL SOURCES
+EXTERNAL SOURCES:
+  sharedLogic:
+    :path: "../sha
