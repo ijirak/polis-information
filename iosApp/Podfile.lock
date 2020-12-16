@@ -6,4 +6,7 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   sharedLogic:
-    :path: "../sha
+    :path: "../sharedLogic"
+
+SPEC CHECKSUMS:
+  share
