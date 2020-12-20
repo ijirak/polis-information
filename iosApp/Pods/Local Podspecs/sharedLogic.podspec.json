@@ -3,3 +3,6 @@
   "version": "1.0",
   "homepage": "Link to the Shared Module homepage",
   "source": {
+    "http": ""
+  },
+  "authors": 
