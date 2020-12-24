@@ -10,4 +10,7 @@
   "summary": "Some description for the Shared Module",
   "vendored_frameworks": "build/cocoapods/framework/sharedLogic.framework",
   "libraries": "c++",
-  "plat
+  "platforms": {
+    "ios": "14.1"
+  },
+  "po
