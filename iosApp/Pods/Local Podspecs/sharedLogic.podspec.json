@@ -8,4 +8,4 @@
   "authors": "",
   "license": "",
   "summary": "Some description for the Shared Module",
-  "vendored_frameworks": "build/cocoapods/f
+  "vendored_frameworks": "build/cocoapods/framework/sharedLogic.framewo
