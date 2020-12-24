@@ -8,4 +8,6 @@
   "authors": "",
   "license": "",
   "summary": "Some description for the Shared Module",
-  "vendored_frameworks": "build/cocoapods/framework/sharedLogic.framewo
+  "vendored_frameworks": "build/cocoapods/framework/sharedLogic.framework",
+  "libraries": "c++",
+  "plat
