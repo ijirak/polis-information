@@ -13,4 +13,5 @@
   "platforms": {
     "ios": "14.1"
   },
-  "po
+  "pod_target_xcconfig": {
+    "KOTLIN_PROJECT
