@@ -14,4 +14,5 @@
     "ios": "14.1"
   },
   "pod_target_xcconfig": {
-    "KOTLIN_PROJECT
+    "KOTLIN_PROJECT_PATH": ":sharedLogic",
+    "PRO
