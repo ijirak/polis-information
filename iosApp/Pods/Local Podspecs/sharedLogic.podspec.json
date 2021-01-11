@@ -15,4 +15,6 @@
   },
   "pod_target_xcconfig": {
     "KOTLIN_PROJECT_PATH": ":sharedLogic",
-    "PRO
+    "PRODUCT_MODULE_NAME": "sharedLogic"
+  },
+  "script_
