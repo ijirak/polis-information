@@ -21,4 +21,5 @@
     {
       "name": "Build sharedLogic",
       "execution_position": "before_compile",
-      "shell_path":
+      "shell_path": "/bin/sh",
+      "script": "    
