@@ -17,4 +17,6 @@
     "KOTLIN_PROJECT_PATH": ":sharedLogic",
     "PRODUCT_MODULE_NAME": "sharedLogic"
   },
-  "script_
+  "script_phases": [
+    {
+      "name": "Build 
