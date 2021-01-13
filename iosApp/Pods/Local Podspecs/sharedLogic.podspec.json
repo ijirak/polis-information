@@ -20,4 +20,5 @@
   "script_phases": [
     {
       "name": "Build sharedLogic",
-      "execution_positio
+      "execution_position": "before_compile",
+      "shell_path":
