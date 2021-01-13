@@ -19,4 +19,5 @@
   },
   "script_phases": [
     {
-      "name": "Build 
+      "name": "Build sharedLogic",
+      "execution_positio
