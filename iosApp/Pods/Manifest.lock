@@ -1,2 +1,5 @@
 PODS:
-  - share
+  - sharedLogic (1.0)
+
+DEPENDENCIES:
+  - sharedLogic (from `../
