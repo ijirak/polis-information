@@ -9,4 +9,4 @@ EXTERNAL SOURCES:
     :path: "../sharedLogic"
 
 SPEC CHECKSUMS:
-  shared
+  sharedLogic: 2a406d8a7506ff47ab1b01e7e71e61be0
