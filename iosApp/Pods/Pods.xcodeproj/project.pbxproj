@@ -3,3 +3,40 @@
 {
 	archiveVersion = 1;
 	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7D2F413ECF0260C6883DBC77DA2A6B73 /* sharedLogic */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 315C12F4436566E0AAC9E6A5295E9676 /* Build configuration list for PBXAggregateTarget "sharedLogic" */;
+			buildPhases = (
+				575B2C6C88AC48859E417354D3FAA460 /* [CP-User] Build sharedLogic */,
+			);
+			dependencies = (
+			);
+			name = sharedLogic;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3133A107F76F9CC0CE52C0302D5DDB06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A6784DEE39D00DB624D5012EB43EE936 /* Pods-iosApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42DE4C0106600A5B6D599285368F3270 /* Pods-iosApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8A459F7F5B7A35E04C33956E1014B11 /* Pods-iosApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2475209BEE7612101900020629C625 /* Pods-iosApp-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EF273EFC8E22625A2D679F723B87B69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D2F413ECF0260C6883DBC77DA2A6B73;
+			remoteInfo = sharedLogic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0011AEE22E8296B3D9E0B0B2CDCAB2EE /* Pods-iosApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		0212A687E57A6F897DB2CB397217CFB5 /* sharedLogic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = sharedLogic.framework; path = build/cocoapods/framework/sharedLogic.framework; sourceTree = "<group>"; };
+		1A2FB55B5C37861BC78ECD1420D818C3 /* Pods-iosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosApp.release.xcconfig"; sourceTree = "<group>"; };
