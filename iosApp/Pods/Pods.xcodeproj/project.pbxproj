@@ -75,3 +75,31 @@
 			sourceTree = "<group>";
 		};
 		30BE35B84B9BB4C23CBFAC848DFE1A8D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C3803E173E84D2C41C9FDBFF32DEC20 /* sharedLogic */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		310087C345B86EEF25A054485E0BB5CB /* Pods-iosApp */ = {
+			isa = PBXGroup;
+			children = (
+				482384ADFE4EF692B16FACB8C2021970 /* Pods-iosApp.modulemap */,
+				A43877303056397968EC90C7AAFE17E8 /* Pods-iosApp-acknowledgements.markdown */,
+				0011AEE22E8296B3D9E0B0B2CDCAB2EE /* Pods-iosApp-acknowledgements.plist */,
+				3A2475209BEE7612101900020629C625 /* Pods-iosApp-dummy.m */,
+				BCAED803D074E2E9C3B1327F049C8C2A /* Pods-iosApp-Info.plist */,
+				42DE4C0106600A5B6D599285368F3270 /* Pods-iosApp-umbrella.h */,
+				A79C2AA5C063914B2D1BD80187FDF6DE /* Pods-iosApp.debug.xcconfig */,
+				1A2FB55B5C37861BC78ECD1420D818C3 /* Pods-iosApp.release.xcconfig */,
+			);
+			name = "Pods-iosApp";
+			path = "Target Support Files/Pods-iosApp";
+			sourceTree = "<group>";
+		};
+		3C3803E173E84D2C41C9FDBFF32DEC20 /* sharedLogic */ = {
+			isa = PBXGroup;
+			children = (
+				8C944AD1FA14AEC3F731DE34F70B7223 /* Frameworks */,
+				E6A83033C028D322816893176214BCD0 /* Pod */,
