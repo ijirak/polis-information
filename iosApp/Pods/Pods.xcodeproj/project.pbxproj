@@ -103,3 +103,36 @@
 			children = (
 				8C944AD1FA14AEC3F731DE34F70B7223 /* Frameworks */,
 				E6A83033C028D322816893176214BCD0 /* Pod */,
+				B206BE078BCB497BB4CC6EC346D0E88B /* Support Files */,
+			);
+			name = sharedLogic;
+			path = ../../sharedLogic;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8C944AD1FA14AEC3F731DE34F70B7223 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0212A687E57A6F897DB2CB397217CFB5 /* sharedLogic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B206BE078BCB497BB4CC6EC346D0E88B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27FBF0D89EFB0FE9A25766966777D355 /* sharedLogic.debug.xcconfig */,
+				5633477107800994E2B17CCF63757D15 /* sharedLogic.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../iosApp/Pods/Target Support Files/sharedLogic";
+			sourceTree = "<group>";
+		};
+		C9F6DDEE5D76F65BB478A349731F54F4 /* Targets Support Files */ = {
