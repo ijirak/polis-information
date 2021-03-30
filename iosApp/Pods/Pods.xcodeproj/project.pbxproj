@@ -179,3 +179,41 @@
 			files = (
 				A6784DEE39D00DB624D5012EB43EE936 /* Pods-iosApp-umbrella.h in Headers */,
 			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ED39C638569286489CD697A6C8964146 /* Pods-iosApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D0FE28B91FDFED73A2447E3A098C887 /* Build configuration list for PBXNativeTarget "Pods-iosApp" */;
+			buildPhases = (
+				9BED2CE7190A32EE2E372ADA4A6B4365 /* Headers */,
+				44B832ABA1E3299A6952F37CE2B8132C /* Sources */,
+				2DAB3ED9CF6E831E3685CDF90E3D70CE /* Frameworks */,
+				41136397D5621D7B9EC3854C8C52F041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A629F6F2A87BE879CFE8326764E3B35 /* PBXTargetDependency */,
+			);
+			name = "Pods-iosApp";
+			productName = Pods_iosApp;
+			productReference = B097DD7534E741D5C41838011D755842 /* Pods-iosApp */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
