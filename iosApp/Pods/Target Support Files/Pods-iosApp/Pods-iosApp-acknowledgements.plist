@@ -6,4 +6,5 @@
 	<array>
 		<dict>
 			<key>FooterText</key>
-			<string>This application makes use of the following third 
+			<string>This application makes use of the following third party libraries:</string>
+			<key>Title<
