@@ -7,4 +7,6 @@
 		<dict>
 			<key>FooterText</key>
 			<string>This application makes use of the following third party libraries:</string>
-			<key>Title<
+			<key>Title</key>
+			<string>Acknowledgements</string>
+		
