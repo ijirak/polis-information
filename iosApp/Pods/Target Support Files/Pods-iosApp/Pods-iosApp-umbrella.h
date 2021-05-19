@@ -2,4 +2,5 @@
 #import <UIKit/UIKit.h>
 #else
 #ifndef FOUNDATION_EXPORT
-#i
+#if defined(__cplusplus)
+#define FOUNDA
