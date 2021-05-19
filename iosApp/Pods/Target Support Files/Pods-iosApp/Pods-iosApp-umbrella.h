@@ -7,4 +7,8 @@
 #else
 #define FOUNDATION_EXPORT extern
 #endif
-#end
+#endif
+#endif
+
+
+FOUNDATION_EXPORT do
