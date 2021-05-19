@@ -11,4 +11,4 @@
 #endif
 
 
-FOUNDATION_EXPORT do
+FOUNDATION_EXPORT double Pods_iosAppVersionNumber;
