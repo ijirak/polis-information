@@ -1,2 +1,5 @@
 #ifdef __OBJC__
-#import <UIKit/U
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#i
