@@ -3,4 +3,6 @@
 #else
 #ifndef FOUNDATION_EXPORT
 #if defined(__cplusplus)
-#define FOUNDA
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define 
