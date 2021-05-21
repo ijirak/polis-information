@@ -12,4 +12,5 @@
 
 
 FOUNDATION_EXPORT double Pods_iosAppVersionNumber;
-FOUNDATION_EXPORT const unsigned char P
+FOUNDATION_EXPORT const unsigned char Pods_iosAppVersionString[];
+
