@@ -20,4 +20,6 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>U
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<
