@@ -27,4 +27,5 @@
 	</dict>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
-		<st
+		<string>armv7</string>
+	</array>
