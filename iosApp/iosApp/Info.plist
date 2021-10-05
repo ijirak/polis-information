@@ -29,4 +29,6 @@
 	<array>
 		<string>armv7</string>
 	</array>
-	<key>UISupportedInterfaceOrientations<
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrient
