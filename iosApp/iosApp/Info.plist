@@ -38,4 +38,5 @@
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationPortra
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOr
