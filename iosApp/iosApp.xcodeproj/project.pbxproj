@@ -66,3 +66,33 @@
 			sourceTree = "<group>";
 		};
 		7555FF7D242A565900829871 /* iosApp */ = {
+			isa = PBXGroup;
+			children = (
+				058557BA273AAA24004C7B11 /* Assets.xcassets */,
+				7555FF82242A565900829871 /* ContentView.swift */,
+				7555FF8C242A565B00829871 /* Info.plist */,
+				2152FB032600AC8F00CF470E /* iOSApp.swift */,
+				058557D7273AAEEB004C7B11 /* Preview Content */,
+			);
+			path = iosApp;
+			sourceTree = "<group>";
+		};
+		9F60D0FAD9CE867E5D213806 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40EF2DEF6C7517EB9DD7E3ED /* Pods-iosApp.debug.xcconfig */,
+				68131EC5FF0A282043C52BE9 /* Pods-iosApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DA79CA2639ECA9FC19ABFD69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				962C64097DE0D74D98ECB149 /* Pods_iosApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
