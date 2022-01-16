@@ -70,3 +70,35 @@ dependencyResolutionManagement {
             //MULTITHREADING
             library("kotlinx-coroutines-core","org.jetbrains.kotlinx", "kotlinx-coroutines-core").versionRef("coroutines-version")
             library("kotlinx-coroutines-android","org.jetbrains.kotlinx", "kotlinx-coroutines-android").version("coroutines-version")
+
+            //DATABASE
+            library("sqldelight-runtime","com.squareup.sqldelight", "runtime").versionRef("sqldelight-version")
+            library("sqldelight-coroutines","com.squareup.sqldelight", "coroutines-extensions").versionRef("sqldelight-version")
+            library("sqldelight-driver-ios","com.squareup.sqldelight", "native-driver").versionRef("sqldelight-version")
+            library("sqldelight-driver-android","com.squareup.sqldelight", "android-driver").versionRef("sqldelight-version")
+
+            //DI
+            library("koin-core","io.insert-koin", "koin-core").versionRef("koin-version")
+            library("koin-android","io.insert-koin", "koin-android").versionRef("koin-version")
+            library("koin-test","io.insert-koin", "koin-test").versionRef("koin-version")
+
+            //VIEWMODEL MULTIPLATFORM
+            library("hyperdrive-multiplatformx-api","org.brightify.hyperdrive", "multiplatformx-api").versionRef("hyperdrive-version")
+            library("hyperdrive-multiplatformx-compose","org.brightify.hyperdrive", "multiplatformx-compose").versionRef("hyperdrive-version")
+
+            bundle("ktor-common",
+                listOf(
+                    "ktor-client-core",
+                    "ktor-client-json",
+                    "ktor-client-logging",
+                    "ktor-client-serialization",
+            ))
+
+            bundle("sqldelight-common",
+                listOf(
+                    "sqldelight-runtime",
+                    "sqldelight-coroutines"
+            ))
+        }
+    }
+}
