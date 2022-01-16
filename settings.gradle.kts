@@ -35,3 +35,38 @@ dependencyResolutionManagement {
             version("compose-navigation", "2.5.3")
             version("koin-version", "3.2.0")
             version("hyperdrive-version", "0.1.139")
+            version("androix-version", "1.9.0")
+            version("multiplatform-settings-version", "0.9")
+            version("accompanist-coil", "0.15.0")
+            version("accompanist-navigation-animation", "0.27.0")
+            version("stately-version", "1.2.2")
+            version("imageloader-version", "1.2.2.1")
+
+            //CORE
+            library("androidx-core","androidx.core", "core-ktx").versionRef("androix-version")
+            library("multiplatformSettings-core","com.russhwolf", "multiplatform-settings").versionRef("multiplatform-settings-version")
+            library("multiplatformSettings-test","com.russhwolf", "multiplatform-settings-test").versionRef("multiplatform-settings-version")
+            library("stately-common", "co.touchlab", "stately-common").versionRef("stately-version")
+
+            //UI
+            library("androidx-compose-ui-core","androidx.compose.ui", "ui").versionRef("compose-version")
+            library("androidx-compose-ui-tooling","androidx.compose.ui", "ui-tooling").versionRef("compose-version")
+            library("androidx-compose-foundation","androidx.compose.foundation", "foundation").versionRef("compose-version")
+            library("androidx-compose-material","androidx.compose.material", "material").versionRef("compose-version")
+            library("androidx-compose-activity","androidx.activity", "activity-compose").versionRef("compose-activity")
+            library("androidx-compose-navigation","androidx.navigation", "navigation-compose").versionRef("compose-navigation")
+            library("accompanist-coil","com.google.accompanist", "accompanist-coil").versionRef("accompanist-coil")
+            library("accompanist-navigationAnimation","com.google.accompanist", "accompanist-navigation-animation").versionRef("accompanist-navigation-animation")
+            library("imageLoader","io.github.qdsfdhvh", "image-loader").versionRef("imageloader-version")
+
+            //NETWORK
+            library("ktor-client-core","io.ktor", "ktor-client-core").versionRef("ktor-version")
+            library("ktor-client-json","io.ktor", "ktor-client-json").versionRef("ktor-version")
+            library("ktor-client-logging","io.ktor", "ktor-client-logging").versionRef("ktor-version")
+            library("ktor-client-serialization","io.ktor", "ktor-client-serialization").versionRef("ktor-version")
+            library("ktor-client-okhttp","io.ktor", "ktor-client-okhttp").versionRef("ktor-version")
+            library("ktor-client-ios","io.ktor", "ktor-client-ios").versionRef("ktor-version")
+
+            //MULTITHREADING
+            library("kotlinx-coroutines-core","org.jetbrains.kotlinx", "kotlinx-coroutines-core").versionRef("coroutines-version")
+            library("kotlinx-coroutines-android","org.jetbrains.kotlinx", "kotlinx-coroutines-android").version("coroutines-version")
