@@ -79,3 +79,13 @@ android {
     namespace = "com.turbosokol.tradingalchemy"
     compileSdk = 33
     defaultConfig {
+        minSdk = 26
+        targetSdk = 33
+    }
+}
+
+//sqldelight {
+//    database("TradingAlchemyDatabase") {
+//        packageName = "com.turbosokol.tradingalchemy.db"
+//    }
+//}
