@@ -102,3 +102,10 @@ dependencyResolutionManagement {
         }
     }
 }
+
+rootProject.name = "TradingAlchemy"
+include(":androidApp")
+include(":sharedLogic")
+include(":shredUI")
+include(":iosApp")
+include(":sharedUI")
