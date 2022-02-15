@@ -1,1 +1,3 @@
-package com.turbosokol.tra
+package com.turbosokol.tradingalchemy
+
+import org.koin.cor
