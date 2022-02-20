@@ -2,4 +2,5 @@ package com.turbosokol.tradingalchemy
 
 import org.koin.core.KoinApplication
 import org.koin.core.context.startKoin
-imp
+import org.koin.core.module.Module
+import or
