@@ -7,4 +7,7 @@ import org.koin.dsl.module
 
 /***
  *If this code runs it created by Evgenii Sokol.
- *If it doesn’t work, I don’t know who created it
+ *If it doesn’t work, I don’t know who created it.
+ ***/
+
+fun initKoin(otherMod
