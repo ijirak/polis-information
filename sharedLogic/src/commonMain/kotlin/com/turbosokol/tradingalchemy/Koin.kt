@@ -10,4 +10,5 @@ import org.koin.dsl.module
  *If it doesn’t work, I don’t know who created it.
  ***/
 
-fun initKoin(otherModules: List<Module>): KoinApplicati
+fun initKoin(otherModules: List<Module>): KoinApplication {
+    val koinApplication = s
