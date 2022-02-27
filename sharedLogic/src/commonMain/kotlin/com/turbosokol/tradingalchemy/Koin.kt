@@ -10,4 +10,4 @@ import org.koin.dsl.module
  *If it doesn’t work, I don’t know who created it.
  ***/
 
-fun initKoin(otherMod
+fun initKoin(otherModules: List<Module>): KoinApplicati
