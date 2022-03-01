@@ -13,4 +13,5 @@ import org.koin.dsl.module
 fun initKoin(otherModules: List<Module>): KoinApplication {
     val koinApplication = startKoin{
         modules(
-           
+            otherModules
+//            platform
