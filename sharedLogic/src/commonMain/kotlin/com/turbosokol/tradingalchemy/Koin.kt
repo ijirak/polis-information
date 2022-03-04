@@ -14,4 +14,6 @@ fun initKoin(otherModules: List<Module>): KoinApplication {
     val koinApplication = startKoin{
         modules(
             otherModules
-//            platform
+//            platformModules
+        )
+    
