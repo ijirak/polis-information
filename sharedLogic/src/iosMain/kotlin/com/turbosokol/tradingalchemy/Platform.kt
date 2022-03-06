@@ -1,1 +1,3 @@
-package com.tur
+package com.turbosokol.tradingalchemy
+
+import pl
