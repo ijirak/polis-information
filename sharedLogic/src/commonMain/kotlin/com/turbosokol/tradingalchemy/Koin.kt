@@ -24,4 +24,4 @@ private val coreModule = module {
 
 }
 
-//expect 
+//expect val platformModules: Module
