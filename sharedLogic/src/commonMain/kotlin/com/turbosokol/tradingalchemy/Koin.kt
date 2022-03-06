@@ -16,4 +16,8 @@ fun initKoin(otherModules: List<Module>): KoinApplication {
             otherModules
 //            platformModules
         )
-    
+    }
+    return koinApplication
+}
+
+private
