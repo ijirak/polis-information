@@ -20,4 +20,8 @@ fun initKoin(otherModules: List<Module>): KoinApplication {
     return koinApplication
 }
 
-private
+private val coreModule = module {
+
+}
+
+//expect 
