@@ -1,3 +1,5 @@
 package com.turbosokol.tradingalchemy
 
-import pl
+import platform.UIKit.UIDevice
+
+class IOSPlatform: Platform {
