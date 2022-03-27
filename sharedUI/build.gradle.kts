@@ -1,2 +1,3 @@
 plugins {
-    kotlin(
+    kotlin("multiplatform")
+    kotlin("nati
