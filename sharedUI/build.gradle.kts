@@ -1,3 +1,4 @@
 plugins {
     kotlin("multiplatform")
-    kotlin("nati
+    kotlin("native.cocoapods")
+    id("com.android.l
