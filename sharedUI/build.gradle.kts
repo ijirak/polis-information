@@ -7,4 +7,6 @@ plugins {
 
 kotlin {
     android()
-   
+    iosX64()
+    iosArm64()
+    iosSimula
