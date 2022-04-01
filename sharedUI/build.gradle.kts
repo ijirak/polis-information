@@ -12,4 +12,5 @@ kotlin {
     iosSimulatorArm64()
 
     cocoapods {
-        summary = "Some description for the Shared
+        summary = "Some description for the Shared Module"
+        homepage = "Link to the Sh
