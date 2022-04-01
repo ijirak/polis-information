@@ -9,4 +9,7 @@ kotlin {
     android()
     iosX64()
     iosArm64()
-    iosSimula
+    iosSimulatorArm64()
+
+    cocoapods {
+        summary
