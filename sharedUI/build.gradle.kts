@@ -12,4 +12,4 @@ kotlin {
     iosSimulatorArm64()
 
     cocoapods {
-        summary
+        summary = "Some description for the Shared
