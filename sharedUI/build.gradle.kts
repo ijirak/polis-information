@@ -17,4 +17,8 @@ kotlin {
         version = "1.0"
         ios.deploymentTarget = "14.1"
         framework {
-            bas
+            baseName = "sharedFront"
+        }
+    }
+    
+ 
