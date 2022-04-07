@@ -23,4 +23,5 @@ kotlin {
     
     sourceSets {
         val commonMain by getting {
-            depen
+            dependencies {
+                implementation(project(
