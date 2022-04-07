@@ -22,4 +22,5 @@ kotlin {
     }
     
     sourceSets {
-        val com
+        val commonMain by getting {
+            depen
