@@ -25,4 +25,5 @@ kotlin {
         val commonMain by getting {
             dependencies {
                 implementation(project(":sharedLogic"))
-                api(
+                api(libs.kotlinx.coroutines.core)
+        
