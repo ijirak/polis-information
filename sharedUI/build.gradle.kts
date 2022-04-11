@@ -26,4 +26,6 @@ kotlin {
             dependencies {
                 implementation(project(":sharedLogic"))
                 api(libs.kotlinx.coroutines.core)
-                api(libs.multiplatformSett
+                api(libs.multiplatformSettings.core)
+
+                
