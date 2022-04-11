@@ -28,4 +28,5 @@ kotlin {
                 api(libs.kotlinx.coroutines.core)
                 api(libs.multiplatformSettings.core)
 
-                
+                implementation(libs.bundles.ktor.common)
+ 
