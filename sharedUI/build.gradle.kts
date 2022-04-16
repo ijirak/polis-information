@@ -31,4 +31,5 @@ kotlin {
                 implementation(libs.bundles.ktor.common)
                 implementation(libs.bundles.sqldelight.common)
 
-           
+                implementation(libs.stately.common)
+  
