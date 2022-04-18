@@ -32,4 +32,6 @@ kotlin {
                 implementation(libs.bundles.sqldelight.common)
 
                 implementation(libs.stately.common)
-                implementati
+                implementation(libs.koin.core)
+
+      
