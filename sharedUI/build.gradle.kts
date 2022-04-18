@@ -34,4 +34,5 @@ kotlin {
                 implementation(libs.stately.common)
                 implementation(libs.koin.core)
 
-      
+                implementation(compose.ui)
+    
