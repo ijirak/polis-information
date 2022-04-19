@@ -35,4 +35,5 @@ kotlin {
                 implementation(libs.koin.core)
 
                 implementation(compose.ui)
-                implementation(com
+                implementation(compose.foundation)
+                im
