@@ -36,4 +36,4 @@ kotlin {
 
                 implementation(compose.ui)
                 implementation(compose.foundation)
-                im
+                implementation(compose.material)
