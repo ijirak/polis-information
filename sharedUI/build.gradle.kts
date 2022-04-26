@@ -39,4 +39,5 @@ kotlin {
                 implementation(compose.material)
                 implementation(compose.runtime)
 
-                implementat
+                implementation(libs.hyperdrive.multiplatformx.api)
+              
