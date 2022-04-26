@@ -40,4 +40,4 @@ kotlin {
                 implementation(compose.runtime)
 
                 implementation(libs.hyperdrive.multiplatformx.api)
-              
+                implementation(libs.hyperdrive.mult
