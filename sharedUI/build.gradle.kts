@@ -43,4 +43,6 @@ kotlin {
                 implementation(libs.hyperdrive.multiplatformx.compose)
             }
         }
-        val commonTe
+        val commonTest by getting {
+            dependencies {
+    
