@@ -42,3 +42,5 @@ kotlin {
                 implementation(libs.hyperdrive.multiplatformx.api)
                 implementation(libs.hyperdrive.multiplatformx.compose)
             }
+        }
+        val commonTe
