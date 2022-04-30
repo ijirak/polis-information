@@ -48,4 +48,5 @@ kotlin {
                 implementation(kotlin("test"))
             }
         }
-        v
+        val androidMain by getting {
+       
