@@ -53,4 +53,5 @@ kotlin {
                 implementation(libs.accompanist.coil)
             }
         }
-        va
+        val androidTest by getting
+        val iosX6
