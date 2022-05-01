@@ -51,4 +51,6 @@ kotlin {
         val androidMain by getting {
             dependencies {
                 implementation(libs.accompanist.coil)
-     
+            }
+        }
+        va
