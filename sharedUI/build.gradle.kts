@@ -54,4 +54,5 @@ kotlin {
             }
         }
         val androidTest by getting
-        val iosX6
+        val iosX64Main by getting
+        val iosAr
