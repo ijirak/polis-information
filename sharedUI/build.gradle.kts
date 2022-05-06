@@ -59,4 +59,6 @@ kotlin {
         val iosSimulatorArm64Main by getting
         val iosMain by creating {
             dependencies {
-                implementation(li
+                implementation(libs.imageLoader)
+            }
+ 
