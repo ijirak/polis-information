@@ -61,4 +61,4 @@ kotlin {
             dependencies {
                 implementation(libs.imageLoader)
             }
- 
+            dependsOn(commonMain)
