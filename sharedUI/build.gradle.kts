@@ -62,3 +62,4 @@ kotlin {
                 implementation(libs.imageLoader)
             }
             dependsOn(commonMain)
+            iosX64Main.dependsOn(this
