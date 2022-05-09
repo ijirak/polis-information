@@ -63,4 +63,5 @@ kotlin {
             }
             dependsOn(commonMain)
             iosX64Main.dependsOn(this)
-            iosArm64Main.dependsOn
+            iosArm64Main.dependsOn(this)
+            iosSimulatorArm64Main.dep
