@@ -70,4 +70,5 @@ kotlin {
         val iosArm64Test by getting
         val iosSimulatorArm64Test by getting
         val iosTest by creating {
-            dependsOn(co
+            dependsOn(commonTest)
+            iosX64Test.
