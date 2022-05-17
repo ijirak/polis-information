@@ -73,4 +73,4 @@ kotlin {
             dependsOn(commonTest)
             iosX64Test.dependsOn(this)
             iosArm64Test.dependsOn(this)
-            
+            iosSimulatorArm64Test.dependsOn(th
