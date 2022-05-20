@@ -78,3 +78,4 @@ kotlin {
     }
 
     sourceSets.all {
+        languageSettings.
