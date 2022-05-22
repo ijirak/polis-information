@@ -78,4 +78,5 @@ kotlin {
     }
 
     sourceSets.all {
-        languageSettings.
+        languageSettings.apply {
+            optIn("kotlin.Re
