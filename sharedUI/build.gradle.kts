@@ -80,4 +80,10 @@ kotlin {
     sourceSets.all {
         languageSettings.apply {
             optIn("kotlin.RequiresOptIn")
-            optIn("kotlinx.coroutines.ExperimentalCoroutin
+            optIn("kotlinx.coroutines.ExperimentalCoroutinesApi")
+        }
+    }
+}
+
+android {
+    na
