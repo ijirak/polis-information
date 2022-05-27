@@ -86,4 +86,4 @@ kotlin {
 }
 
 android {
-    na
+    namespace = "com.turbosokol.sharedui"
