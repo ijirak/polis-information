@@ -90,4 +90,9 @@ android {
     compileSdk = 33
     defaultConfig {
         minSdk = 26
-        target
+        targetSdk = 33
+    }
+}
+
+compose {
+    andro
