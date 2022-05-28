@@ -88,4 +88,6 @@ kotlin {
 android {
     namespace = "com.turbosokol.sharedui"
     compileSdk = 33
-    defaultConf
+    defaultConfig {
+        minSdk = 26
+        target
