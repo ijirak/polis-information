@@ -87,3 +87,5 @@ kotlin {
 
 android {
     namespace = "com.turbosokol.sharedui"
+    compileSdk = 33
+    defaultConf
