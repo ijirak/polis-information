@@ -96,4 +96,7 @@ android {
 
 compose {
     android {
-        useAndroidX = tru
+        useAndroidX = true
+        androidxVersion = "1.3.0"
+    }
+}
