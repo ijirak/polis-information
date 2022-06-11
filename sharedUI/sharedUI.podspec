@@ -4,4 +4,5 @@ Pod::Spec.new do |spec|
     spec.homepage                 = 'Link to the Shared Module homepage'
     spec.source                   = { :http=> ''}
     spec.authors                  = ''
-    spec.license       
+    spec.license                  = ''
+    spec.summary            
