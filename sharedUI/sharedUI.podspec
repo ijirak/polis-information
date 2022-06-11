@@ -5,4 +5,4 @@ Pod::Spec.new do |spec|
     spec.source                   = { :http=> ''}
     spec.authors                  = ''
     spec.license                  = ''
-    spec.summary            
+    spec.summary                  = 'Some description for th
