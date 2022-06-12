@@ -5,4 +5,5 @@ Pod::Spec.new do |spec|
     spec.source                   = { :http=> ''}
     spec.authors                  = ''
     spec.license                  = ''
-    spec.summary                  = 'Some description for th
+    spec.summary                  = 'Some description for the Shared Module'
+    spec.vendored_framewo
