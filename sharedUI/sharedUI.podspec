@@ -6,4 +6,5 @@ Pod::Spec.new do |spec|
     spec.authors                  = ''
     spec.license                  = ''
     spec.summary                  = 'Some description for the Shared Module'
-    spec.vendored_frameworks      = 'build/cocoapods
+    spec.vendored_frameworks      = 'build/cocoapods/framework/sharedFront.framework'
+    sp
