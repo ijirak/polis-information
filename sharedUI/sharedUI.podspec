@@ -9,4 +9,6 @@ Pod::Spec.new do |spec|
     spec.vendored_frameworks      = 'build/cocoapods/framework/sharedFront.framework'
     spec.libraries                = 'c++'
     spec.ios.deployment_target = '14.1'
-    
+                
+                
+    spec.
