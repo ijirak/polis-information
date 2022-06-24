@@ -12,4 +12,4 @@ Pod::Spec.new do |spec|
                 
                 
     spec.pod_target_xcconfig = {
-     
+        'KOTLIN_PROJECT_PATH' => ':shared
