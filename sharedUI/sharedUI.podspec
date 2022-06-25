@@ -13,4 +13,6 @@ Pod::Spec.new do |spec|
                 
     spec.pod_target_xcconfig = {
         'KOTLIN_PROJECT_PATH' => ':sharedUI',
-        'PRODUCT_MODULE_NAME
+        'PRODUCT_MODULE_NAME' => 'sharedFront',
+    }
+        
