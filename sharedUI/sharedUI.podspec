@@ -15,4 +15,6 @@ Pod::Spec.new do |spec|
         'KOTLIN_PROJECT_PATH' => ':sharedUI',
         'PRODUCT_MODULE_NAME' => 'sharedFront',
     }
-        
+                
+    spec.script_phases = [
+        {
