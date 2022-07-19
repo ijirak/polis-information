@@ -19,4 +19,5 @@ Pod::Spec.new do |spec|
     spec.script_phases = [
         {
             :name => 'Build sharedUI',
-            :execution_position =
+            :execution_position => :before_compile,
+            :shell
