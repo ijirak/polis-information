@@ -20,4 +20,5 @@ Pod::Spec.new do |spec|
         {
             :name => 'Build sharedUI',
             :execution_position => :before_compile,
-            :shell
+            :shell_path => '/bin/sh',
+            :
