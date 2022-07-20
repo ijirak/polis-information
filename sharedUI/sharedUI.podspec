@@ -22,4 +22,5 @@ Pod::Spec.new do |spec|
             :execution_position => :before_compile,
             :shell_path => '/bin/sh',
             :script => <<-SCRIPT
-                if [ "YES" = "$COCOAPODS_SKIP_KOT
+                if [ "YES" = "$COCOAPODS_SKIP_KOTLIN_BUILD" ]; then
+              
