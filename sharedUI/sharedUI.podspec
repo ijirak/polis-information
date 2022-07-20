@@ -26,4 +26,5 @@ Pod::Spec.new do |spec|
                   echo "Skipping Gradle build task invocation due to COCOAPODS_SKIP_KOTLIN_BUILD environment variable set to \"YES\""
                   exit 0
                 fi
-                
+                set -ev
+                REPO_ROOT="$PODS_TARGET_SRCRO
