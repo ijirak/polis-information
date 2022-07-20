@@ -23,4 +23,4 @@ Pod::Spec.new do |spec|
             :shell_path => '/bin/sh',
             :script => <<-SCRIPT
                 if [ "YES" = "$COCOAPODS_SKIP_KOTLIN_BUILD" ]; then
-                  echo "Skipping Gradle build task invocation due to COCOAPOD
+                  echo "Skipping Gradle build task invocation due to COCOAPODS_SKIP_KOTLIN_BUILD environment 
