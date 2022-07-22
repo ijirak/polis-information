@@ -27,4 +27,5 @@ Pod::Spec.new do |spec|
                   exit 0
                 fi
                 set -ev
-                REPO_ROOT="$PODS_TARGET_SRCRO
+                REPO_ROOT="$PODS_TARGET_SRCROOT"
+                "$REPO_ROOT/../gradle
