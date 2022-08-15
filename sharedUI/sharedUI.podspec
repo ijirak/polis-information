@@ -30,4 +30,5 @@ Pod::Spec.new do |spec|
                 REPO_ROOT="$PODS_TARGET_SRCROOT"
                 "$REPO_ROOT/../gradlew" -p "$REPO_ROOT" $KOTLIN_PROJECT_PATH:syncFramework \
                     -Pkotlin.native.cocoapods.platform=$PLATFORM_NAME \
-                    -Pkotlin.native.cocoapods.archs
+                    -Pkotlin.native.cocoapods.archs="$ARCHS" \
+                    
