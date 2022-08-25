@@ -33,4 +33,7 @@ Pod::Spec.new do |spec|
                     -Pkotlin.native.cocoapods.archs="$ARCHS" \
                     -Pkotlin.native.cocoapods.configuration="$CONFIGURATION"
             SCRIPT
-   
+        }
+    ]
+                
+end
