@@ -1,1 +1,4 @@
-package com.turbos
+package com.turbosokol.sharedfront
+
+class Greeting {
+    priva
