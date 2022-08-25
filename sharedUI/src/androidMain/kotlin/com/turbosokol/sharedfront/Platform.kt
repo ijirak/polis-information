@@ -1,4 +1,4 @@
 package com.turbosokol.sharedfront
 
 class AndroidPlatform : Platform {
-    override val name: String = "Android
+    override val name: String = "Android ${android.os.Build.VERSION.SDK_INT
