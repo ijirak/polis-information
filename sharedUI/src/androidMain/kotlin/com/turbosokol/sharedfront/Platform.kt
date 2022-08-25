@@ -1,3 +1,4 @@
 package com.turbosokol.sharedfront
 
-class A
+class AndroidPlatform : Platform {
+    over
