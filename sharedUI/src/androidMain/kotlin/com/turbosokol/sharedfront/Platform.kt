@@ -1,4 +1,4 @@
 package com.turbosokol.sharedfront
 
 class AndroidPlatform : Platform {
-    over
+    override val name: String = "Android
