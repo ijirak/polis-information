@@ -1,4 +1,4 @@
 package com.turbosokol.sharedfront
 
 class Greeting {
-    priva
+    private val platform: Platform = getPlatform(
