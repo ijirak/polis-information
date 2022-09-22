@@ -10,4 +10,5 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.turbosokol.sharedfront.ui.screens.CalculatorScreen
-import com.turbosokol.sharedfront.util.ApplicationV
+import com.turbosokol.sharedfront.util.ApplicationViewModel
+import com.turbosokol.share
