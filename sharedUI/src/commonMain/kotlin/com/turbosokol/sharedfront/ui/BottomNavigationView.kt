@@ -11,4 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.turbosokol.sharedfront.ui.screens.CalculatorScreen
 import com.turbosokol.sharedfront.util.ApplicationViewModel
-import com.turbosokol.sharedfront.util.Extensions.observeAs
+import com.turbosokol.sharedfront.util.Extensions.observeAsState
+
+/***
+ *If this code runs it crea
