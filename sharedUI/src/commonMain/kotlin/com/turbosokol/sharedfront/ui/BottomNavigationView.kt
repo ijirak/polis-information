@@ -14,4 +14,5 @@ import com.turbosokol.sharedfront.util.ApplicationViewModel
 import com.turbosokol.sharedfront.util.Extensions.observeAsState
 
 /***
- *If this code runs it crea
+ *If this code runs it created by Evgenii Sokol.
+ *If it doe
