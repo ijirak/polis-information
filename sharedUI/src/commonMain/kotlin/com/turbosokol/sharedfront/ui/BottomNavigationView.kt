@@ -20,4 +20,4 @@ import com.turbosokol.sharedfront.util.Extensions.observeAsState
 
 @Composable
 internal fun BottomNavigationView(viewModel: ApplicationViewModel, modifier: Modifier = Modifier) {
-    val selectedTab by viewModel
+    val selectedTab by viewModel.observeSelectedTab.observeAsState
