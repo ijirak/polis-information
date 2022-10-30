@@ -19,4 +19,4 @@ import com.turbosokol.sharedfront.util.Extensions.observeAsState
  ***/
 
 @Composable
-internal fun Bo
+internal fun BottomNavigationView(viewModel: App
