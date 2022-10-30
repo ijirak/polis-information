@@ -25,4 +25,4 @@ internal fun BottomNavigationView(viewModel: ApplicationViewModel, modifier: Mod
     Scaffold(
         modifier = modifier,
         bottomBar = {
-   
+            BottomNavigation(elevati
