@@ -23,4 +23,6 @@ internal fun BottomNavigationView(viewModel: ApplicationViewModel, modifier: Mod
     val selectedTab by viewModel.observeSelectedTab.observeAsState()
 
     Scaffold(
-        modifier
+        modifier = modifier,
+        bottomBar = {
+   
