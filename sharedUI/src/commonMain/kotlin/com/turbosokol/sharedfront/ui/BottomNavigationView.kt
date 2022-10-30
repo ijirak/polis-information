@@ -16,3 +16,7 @@ import com.turbosokol.sharedfront.util.Extensions.observeAsState
 /***
  *If this code runs it created by Evgenii Sokol.
  *If it doesn’t work, I don’t know who created it.
+ ***/
+
+@Composable
+internal fun Bo
