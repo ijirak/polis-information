@@ -26,4 +26,5 @@ internal fun BottomNavigationView(viewModel: ApplicationViewModel, modifier: Mod
         modifier = modifier,
         bottomBar = {
             BottomNavigation(elevation = 0.dp, backgroundColor = MaterialTheme.colors.primary) {
-                vi
+                viewModel.navTabs.forEach { tab ->
+          
