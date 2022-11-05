@@ -25,4 +25,5 @@ internal fun BottomNavigationView(viewModel: ApplicationViewModel, modifier: Mod
     Scaffold(
         modifier = modifier,
         bottomBar = {
-            BottomNavigation(elevation = 0.dp, backgroundColor = MaterialThem
+            BottomNavigation(elevation = 0.dp, backgroundColor = MaterialTheme.colors.primary) {
+                vi
