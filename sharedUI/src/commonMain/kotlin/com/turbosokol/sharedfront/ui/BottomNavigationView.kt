@@ -28,4 +28,4 @@ internal fun BottomNavigationView(viewModel: ApplicationViewModel, modifier: Mod
             BottomNavigation(elevation = 0.dp, backgroundColor = MaterialTheme.colors.primary) {
                 viewModel.navTabs.forEach { tab ->
                     val (title, icon) = when (tab) {
-                      
+                        ApplicationViewModel.NavTab.Calc
