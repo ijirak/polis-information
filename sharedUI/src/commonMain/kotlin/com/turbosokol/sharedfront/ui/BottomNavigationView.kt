@@ -29,4 +29,4 @@ internal fun BottomNavigationView(viewModel: ApplicationViewModel, modifier: Mod
                 viewModel.navTabs.forEach { tab ->
                     val (title, icon) = when (tab) {
                         ApplicationViewModel.NavTab.Calculator -> "Calculator" to Icons.Filled.List
-                        Application
+                        ApplicationViewModel.NavTab.Actives -> "Ac
