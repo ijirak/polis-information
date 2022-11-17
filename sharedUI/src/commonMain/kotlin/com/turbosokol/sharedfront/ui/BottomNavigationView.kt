@@ -31,4 +31,4 @@ internal fun BottomNavigationView(viewModel: ApplicationViewModel, modifier: Mod
                         ApplicationViewModel.NavTab.Calculator -> "Calculator" to Icons.Filled.List
                         ApplicationViewModel.NavTab.Actives -> "Actives" to Icons.Filled.Build
                         ApplicationViewModel.NavTab.Correction -> "Correction" to Icons.Filled.Done
-                     
+                        ApplicationViewModel.NavT
