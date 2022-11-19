@@ -32,4 +32,5 @@ internal fun BottomNavigationView(viewModel: ApplicationViewModel, modifier: Mod
                         ApplicationViewModel.NavTab.Actives -> "Actives" to Icons.Filled.Build
                         ApplicationViewModel.NavTab.Correction -> "Correction" to Icons.Filled.Done
                         ApplicationViewModel.NavTab.Deals -> "Deals" to Icons.Filled.ShoppingCart
-                        ApplicationViewModel.NavTab.Settings -> "Settings" to Icons.Filled.
+                        ApplicationViewModel.NavTab.Settings -> "Settings" to Icons.Filled.Settings
+                
