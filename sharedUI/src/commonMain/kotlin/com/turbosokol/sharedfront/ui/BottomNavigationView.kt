@@ -34,4 +34,5 @@ internal fun BottomNavigationView(viewModel: ApplicationViewModel, modifier: Mod
                         ApplicationViewModel.NavTab.Deals -> "Deals" to Icons.Filled.ShoppingCart
                         ApplicationViewModel.NavTab.Settings -> "Settings" to Icons.Filled.Settings
                     }
-                    Bot
+                    BottomNavigationItem(
+                
