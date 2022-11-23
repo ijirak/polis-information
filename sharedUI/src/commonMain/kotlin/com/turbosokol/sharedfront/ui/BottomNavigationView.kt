@@ -35,4 +35,5 @@ internal fun BottomNavigationView(viewModel: ApplicationViewModel, modifier: Mod
                         ApplicationViewModel.NavTab.Settings -> "Settings" to Icons.Filled.Settings
                     }
                     BottomNavigationItem(
-                        icon = { Icon(imageVector = icon, contentDescr
+                        icon = { Icon(imageVector = icon, contentDescription = null) },
+         
