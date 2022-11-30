@@ -38,4 +38,5 @@ internal fun BottomNavigationView(viewModel: ApplicationViewModel, modifier: Mod
                         icon = { Icon(imageVector = icon, contentDescription = null) },
                         label = { Text(text = title) },
                         selected = selectedTab == tab,
-                    
+                        onClick = {
+                            viewModel.s
