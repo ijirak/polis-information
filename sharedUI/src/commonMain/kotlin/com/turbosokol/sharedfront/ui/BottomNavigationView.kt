@@ -48,4 +48,4 @@ internal fun BottomNavigationView(viewModel: ApplicationViewModel, modifier: Mod
     ) {
         Box(modifier = Modifier.padding(16.dp)) {
             when (selectedTab) {
-                Applicatio
+                ApplicationViewModel.NavTab.Calculator -> CalculatorScree
