@@ -46,4 +46,5 @@ internal fun BottomNavigationView(viewModel: ApplicationViewModel, modifier: Mod
             }
         }
     ) {
-        Box(modifier = Modifie
+        Box(modifier = Modifier.padding(16.dp)) {
+            whe
