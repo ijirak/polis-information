@@ -50,4 +50,4 @@ internal fun BottomNavigationView(viewModel: ApplicationViewModel, modifier: Mod
             when (selectedTab) {
                 ApplicationViewModel.NavTab.Calculator -> CalculatorScreen(viewModel)
                 ApplicationViewModel.NavTab.Actives -> CalculatorScreen(viewModel)
-          
+                ApplicationViewModel.NavTab.Co
