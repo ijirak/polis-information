@@ -56,3 +56,4 @@ internal fun BottomNavigationView(viewModel: ApplicationViewModel, modifier: Mod
             }
         }
     }
+}
