@@ -6,4 +6,5 @@ import com.turbosokol.sharedfront.ui.theme.TradingAlchemyTheme
 import com.turbosokol.sharedfront.util.ApplicationViewModel
 
 /***
- *If this code runs it create
+ *If this code runs it created by Evgenii Sokol.
+ *If it doesn’t wo
