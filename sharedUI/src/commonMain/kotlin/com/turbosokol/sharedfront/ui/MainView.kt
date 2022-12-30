@@ -11,4 +11,4 @@ import com.turbosokol.sharedfront.util.ApplicationViewModel
  ***/
 
 @Composable
-fun MainVi
+fun MainView(viewModel: ApplicationViewModel) {
