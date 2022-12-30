@@ -12,3 +12,5 @@ import com.turbosokol.sharedfront.util.ApplicationViewModel
 
 @Composable
 fun MainView(viewModel: ApplicationViewModel) {
+    TradingAlchemyTheme {
+        BottomNav
