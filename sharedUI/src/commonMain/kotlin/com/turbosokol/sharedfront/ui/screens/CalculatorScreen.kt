@@ -1,1 +1,1 @@
-package c
+package com.turbosokol.sharedfront.ui.screens
