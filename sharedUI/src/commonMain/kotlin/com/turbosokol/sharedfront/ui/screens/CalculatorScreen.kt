@@ -7,4 +7,4 @@ import com.turbosokol.sharedfront.util.ApplicationViewModel
 
 /***
  *If this code runs it created by Evgenii Sokol.
- *If
+ *If it doesn’t work, I don’t know who cr
