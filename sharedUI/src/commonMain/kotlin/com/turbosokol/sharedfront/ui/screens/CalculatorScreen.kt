@@ -11,4 +11,6 @@ import com.turbosokol.sharedfront.util.ApplicationViewModel
  ***/
 
 @Composable
-fun CalculatorScreen(viewModel: ApplicationViewModel, modifier: Modifier = Mo
+fun CalculatorScreen(viewModel: ApplicationViewModel, modifier: Modifier = Modifier) {
+
+}
