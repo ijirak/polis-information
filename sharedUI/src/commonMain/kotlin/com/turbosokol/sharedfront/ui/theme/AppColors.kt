@@ -3,4 +3,5 @@ package com.turbosokol.sharedfront.ui.theme
 import androidx.compose.ui.graphics.Color
 
 object AppColors {
-    val primary =
+    val primary = Color(0xFF7de1c3)
+    val se
