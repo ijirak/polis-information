@@ -1,3 +1,5 @@
 package com.turbosokol.sharedfront.ui.theme
 
-import andr
+import androidx.compose.ui.graphics.Color
+
+object
