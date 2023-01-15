@@ -9,4 +9,5 @@ object AppColors {
 
     val teal = Color(0xFF14A1B6)
     val darkBlue = Color(0xFF0E65B1)
-    val lightYellow = Color(0xFFFED
+    val lightYellow = Color(0xFFFED050)
+    val skyBlue = Color(
