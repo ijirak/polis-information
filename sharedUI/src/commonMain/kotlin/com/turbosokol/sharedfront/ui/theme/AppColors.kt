@@ -8,4 +8,5 @@ object AppColors {
     val secondaryLighter = Color(0xFF0014e6)
 
     val teal = Color(0xFF14A1B6)
-    val darkBlue = Color(0xFF
+    val darkBlue = Color(0xFF0E65B1)
+    val lightYellow = Color(0xFFFED
