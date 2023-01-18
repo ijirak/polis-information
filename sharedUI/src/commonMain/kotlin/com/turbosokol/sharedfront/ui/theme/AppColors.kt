@@ -14,4 +14,5 @@ object AppColors {
     val orange = Color(0xFFf1582c)
 
     val grey = Color(0xFF868686)
-    val darkGrey51 =
+    val darkGrey51 = Color(0xFF333333)
+    val darkGrey
