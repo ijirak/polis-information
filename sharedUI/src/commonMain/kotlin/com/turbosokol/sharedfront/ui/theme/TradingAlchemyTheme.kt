@@ -39,3 +39,13 @@ private val DarkColorPalette = darkColors(
 private val LightColorPalette = lightColors(
     primary = AppColors.primary,
     onPrimary = AppColors.secondary,
+    primaryVariant = AppColors.primary,
+    secondary = AppColors.secondary,
+    onSecondary = Color.White,
+    secondaryVariant = AppColors.secondary,
+    surface = AppColors.lightGrey220,
+    onSurface = Color.Black,
+    background = AppColors.lightGrey250,
+    onBackground = AppColors.darkGrey51,
+    error = AppColors.orange
+)
