@@ -17,4 +17,5 @@ object AppColors {
     val darkGrey51 = Color(0xFF333333)
     val darkGrey32 = Color(0xFF202020)
     val lightGrey220 = Color(0xFFdcdcdc)
-    val lightGrey222 = Color(0xFF
+    val lightGrey222 = Color(0xFFDEDEDE)
+    val lightGrey250 = Color(0xFFfafa
