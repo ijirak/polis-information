@@ -1,1 +1,3 @@
-package com.turbosokol.share
+package com.turbosokol.sharedfront.util
+
+import org.brightify.hyp
