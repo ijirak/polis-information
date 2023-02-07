@@ -7,4 +7,5 @@ import org.brightify.hyperdrive.multiplatformx.BaseViewModel
  *If it doesn’t work, I don’t know who created it.
  ***/
 
-class ApplicationViewModel: BaseViewMod
+class ApplicationViewModel: BaseViewModel() {
+    val navTabs = listOf
