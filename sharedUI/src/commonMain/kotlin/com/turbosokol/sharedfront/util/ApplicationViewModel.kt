@@ -9,4 +9,5 @@ import org.brightify.hyperdrive.multiplatformx.BaseViewModel
 
 class ApplicationViewModel: BaseViewModel() {
     val navTabs = listOf(NavTab.Calculator, NavTab.Actives, NavTab.Deals, NavTab.Correction, NavTab.Settings)
-    var selectedTab: NavTab by 
+    var selectedTab: NavTab by published(NavTab.Calculator)
+    val o
