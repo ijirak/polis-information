@@ -8,4 +8,4 @@ import org.brightify.hyperdrive.multiplatformx.BaseViewModel
  ***/
 
 class ApplicationViewModel: BaseViewModel() {
-    val navTabs = listOf
+    val navTabs = listOf(NavTab.Calculator, NavTab.Actives, N
