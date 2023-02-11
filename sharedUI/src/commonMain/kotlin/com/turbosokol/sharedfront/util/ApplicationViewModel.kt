@@ -13,4 +13,5 @@ class ApplicationViewModel: BaseViewModel() {
     val observeSelectedTab by observe(::selectedTab)
 
 
-    enum class NavTab 
+    enum class NavTab {
+        Calculator, Actives, Deals, Se
