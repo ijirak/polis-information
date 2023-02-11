@@ -14,4 +14,6 @@ class ApplicationViewModel: BaseViewModel() {
 
 
     enum class NavTab {
-        Calculator, Actives, Deals, Se
+        Calculator, Actives, Deals, Settings, Correction
+    }
+}
