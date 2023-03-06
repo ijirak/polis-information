@@ -6,4 +6,5 @@ import org.brightify.hyperdrive.multiplatformx.ObservableObject
 import org.brightify.hyperdrive.multiplatformx.property.ObservableProperty
 
 /***
- *If this code runs it created by Evgenii
+ *If this code runs it created by Evgenii Sokol.
+ *If it doesn’t work, I
