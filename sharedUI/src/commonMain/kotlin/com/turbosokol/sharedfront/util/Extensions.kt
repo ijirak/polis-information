@@ -14,4 +14,5 @@ object Extensions {
     @Composable
     internal fun <T : ManageableViewModel> T.observeAsState(): State<T> {
         val result = remember(this) { mutableStateOf(this, neverEqualPolicy()) }
-        val listener = remember(
+        val listener = remember(this) {
+            object : Observab
