@@ -13,4 +13,5 @@ import org.brightify.hyperdrive.multiplatformx.property.ObservableProperty
 object Extensions {
     @Composable
     internal fun <T : ManageableViewModel> T.observeAsState(): State<T> {
-        val result = remember(this) { mutableStateOf(this, neverEqualPolic
+        val result = remember(this) { mutableStateOf(this, neverEqualPolicy()) }
+        val listener = remember(
