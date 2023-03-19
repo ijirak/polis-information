@@ -15,4 +15,5 @@ object Extensions {
     internal fun <T : ManageableViewModel> T.observeAsState(): State<T> {
         val result = remember(this) { mutableStateOf(this, neverEqualPolicy()) }
         val listener = remember(this) {
-            object : Observab
+            object : ObservableObject.ChangeTracking.Listener {
+  
