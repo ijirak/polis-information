@@ -16,4 +16,4 @@ object Extensions {
         val result = remember(this) { mutableStateOf(this, neverEqualPolicy()) }
         val listener = remember(this) {
             object : ObservableObject.ChangeTracking.Listener {
-  
+                override fun onObjectDidChange() 
