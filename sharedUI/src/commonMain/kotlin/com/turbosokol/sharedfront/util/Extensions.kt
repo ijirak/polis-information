@@ -19,3 +19,6 @@ object Extensions {
                 override fun onObjectDidChange() {
                     result.value = this@observeAsState
                 }
+            }
+        }
+        Disposable
