@@ -17,4 +17,5 @@ object Extensions {
         val listener = remember(this) {
             object : ObservableObject.ChangeTracking.Listener {
                 override fun onObjectDidChange() {
-                    result.value = this@ob
+                    result.value = this@observeAsState
+                }
