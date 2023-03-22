@@ -21,4 +21,5 @@ object Extensions {
                 }
             }
         }
-        Disposable
+        DisposableEffect(this) {
+            val
