@@ -22,4 +22,4 @@ object Extensions {
             }
         }
         DisposableEffect(this) {
-            val
+            val token = changeTracking.addListener(listener)
