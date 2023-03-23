@@ -23,4 +23,7 @@ object Extensions {
         }
         DisposableEffect(this) {
             val token = changeTracking.addListener(listener)
-            result.value = this@obser
+            result.value = this@observeAsState
+
+            onDispose {
+                toke
