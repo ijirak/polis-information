@@ -29,4 +29,7 @@ object Extensions {
                 token.cancel()
             }
         }
-     
+        return result
+    }
+
+    @Com
