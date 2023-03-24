@@ -26,4 +26,7 @@ object Extensions {
             result.value = this@observeAsState
 
             onDispose {
-                toke
+                token.cancel()
+            }
+        }
+     
