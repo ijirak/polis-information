@@ -32,4 +32,5 @@ object Extensions {
         return result
     }
 
-    @Com
+    @Composable
+    internal fun <T> Ob
