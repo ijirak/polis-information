@@ -33,4 +33,4 @@ object Extensions {
     }
 
     @Composable
-    internal fun <T> Ob
+    internal fun <T> ObservableProperty<T>.observeAsSta
