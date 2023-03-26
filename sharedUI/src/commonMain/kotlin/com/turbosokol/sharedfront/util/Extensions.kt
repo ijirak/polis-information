@@ -33,4 +33,5 @@ object Extensions {
     }
 
     @Composable
-    internal fun <T> ObservableProperty<T>.observeAsSta
+    internal fun <T> ObservableProperty<T>.observeAsState(): State<T> {
+        val 
