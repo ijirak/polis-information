@@ -35,3 +35,4 @@ object Extensions {
     @Composable
     internal fun <T> ObservableProperty<T>.observeAsState(): State<T> {
         val result = remember(this) { mutableStateOf(value, neverEqualPolicy()) }
+        val listener = remember(thi
