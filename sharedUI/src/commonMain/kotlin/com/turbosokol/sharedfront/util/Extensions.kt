@@ -34,4 +34,4 @@ object Extensions {
 
     @Composable
     internal fun <T> ObservableProperty<T>.observeAsState(): State<T> {
-        val 
+        val result = remember(this) { mutab
