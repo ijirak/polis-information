@@ -36,4 +36,5 @@ object Extensions {
     internal fun <T> ObservableProperty<T>.observeAsState(): State<T> {
         val result = remember(this) { mutableStateOf(value, neverEqualPolicy()) }
         val listener = remember(this) {
-            object : ObservableProperty.Lis
+            object : ObservableProperty.Listener<T> {
+                overrid
