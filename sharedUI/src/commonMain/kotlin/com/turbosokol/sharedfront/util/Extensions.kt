@@ -38,4 +38,7 @@ object Extensions {
         val listener = remember(this) {
             object : ObservableProperty.Listener<T> {
                 override fun valueDidChange(oldValue: T, newValue: T) {
-                    result.value 
+                    result.value = newValue
+                }
+            }
+ 
