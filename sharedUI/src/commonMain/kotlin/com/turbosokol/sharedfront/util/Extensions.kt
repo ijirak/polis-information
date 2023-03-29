@@ -37,4 +37,5 @@ object Extensions {
         val result = remember(this) { mutableStateOf(value, neverEqualPolicy()) }
         val listener = remember(this) {
             object : ObservableProperty.Listener<T> {
-                override fun valueDidChange(oldValue: T, 
+                override fun valueDidChange(oldValue: T, newValue: T) {
+                    result.value 
