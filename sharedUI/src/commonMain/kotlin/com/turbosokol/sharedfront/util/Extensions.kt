@@ -41,4 +41,5 @@ object Extensions {
                     result.value = newValue
                 }
             }
- 
+        }
+        DisposableEffe
