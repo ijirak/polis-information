@@ -44,4 +44,6 @@ object Extensions {
         }
         DisposableEffect(this) {
             val token = addListener(listener)
-            result.va
+            result.value = value
+
+            o
