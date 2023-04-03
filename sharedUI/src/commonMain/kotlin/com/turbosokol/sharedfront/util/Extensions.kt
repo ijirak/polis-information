@@ -47,4 +47,6 @@ object Extensions {
             result.value = value
 
             onDispose {
-                toke
+                token.cancel()
+            }
+        
