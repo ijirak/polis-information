@@ -46,4 +46,5 @@ object Extensions {
             val token = addListener(listener)
             result.value = value
 
-            o
+            onDispose {
+                toke
