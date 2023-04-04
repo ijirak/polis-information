@@ -49,4 +49,7 @@ object Extensions {
             onDispose {
                 token.cancel()
             }
-        
+        }
+        return result
+    }
+}
